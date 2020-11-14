@@ -1,4 +1,4 @@
-INTRODUCTION TO HTML
+<h1>INTRODUCTION TO HTML</h1>
 -----------------------
 -------------------------
 <OL>
@@ -14,7 +14,7 @@ INTRODUCTION TO HTML
 <li>1.9.Assessment: Structuring a page of content</li>
 </ol>
 
-INTRODUTION TO CSS
+<h1>INTRODUTION TO CSS</h1>
 -------------------------
 -------------------------
 <ol>
@@ -28,7 +28,7 @@ INTRODUTION TO CSS
 <li>1.8.Assessment</li>
 <ol>
 
-INTRODUCTION TO JAVASCRIPT
+<h1>INTRODUCTION TO JAVASCRIPT<h1>
 -----------------------------
 -----------------------------
 <ol>
@@ -42,7 +42,7 @@ INTRODUCTION TO JAVASCRIPT
 <li>1.8.Asynchronous JavaScript</li>
 <li>1.9.Assessment</li>
 </ol>
-INTRODUCTION TO RUBY
+<h1>INTRODUCTION TO RUBY</h1>
 --------------------------
 --------------------------
 <ol>
@@ -57,12 +57,12 @@ INTRODUCTION TO RUBY
 <li>1.9.Assessment</li>
 </ol>
 
-INTRODUCTION TO RUBY ARGOLTHM
+<h2>INTRODUCTION TO RUBY ARGOLTHM</h2>
 --------------------------------
 --------------------------------
 
 
-INTRODUCTION TO GIT/GITHUB
+<h2>INTRODUCTION TO GIT/GITHUB</h2>
 --------------------------
 --------------------------
 
