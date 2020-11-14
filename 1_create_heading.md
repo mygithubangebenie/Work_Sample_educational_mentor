@@ -26,11 +26,11 @@
 <li>1.6.Styling text</li>
 <li>1.7.CSS layout</li>
 <li>1.8.Assessment</li>
-<ol>
+</ol>
 
 <h1>INTRODUCTION TO JAVASCRIPT<h1>
------------------------------
------------------------------
+-----------------------------------
+-----------------------------------
 <ol>
 <li>1.1.What is JavaScript?</li>
 <li>1.2.Basic math in JavaScript — Numbers and operators</li>
@@ -42,6 +42,7 @@
 <li>1.8.Asynchronous JavaScript</li>
 <li>1.9.Assessment</li>
 </ol>
+
 <h1>INTRODUCTION TO RUBY</h1>
 --------------------------
 --------------------------
