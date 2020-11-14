@@ -1,7 +1,6 @@
 <h1>INTRODUCTION TO HTML</h1>
------------------------
--------------------------
-<OL>
+
+<ol>
 <li>1.1.Introduction to HTML overview</li>
 <li>1.2.Getting started with HTML</li>
 <li>1.3.What's in the head? Metadata in HTML</li>
@@ -15,8 +14,7 @@
 </ol>
 
 <h1>INTRODUTION TO CSS</h1>
--------------------------
--------------------------
+
 <ol>
 <li>1.1.What is CSS?</li>
 <li>1.2.Getting started with CSS</li>
@@ -29,12 +27,11 @@
 </ol>
 
 <h1>INTRODUCTION TO JAVASCRIPT<h1>
------------------------------------
------------------------------------
+
 <ol>
 <li>1.1.What is JavaScript?</li>
-<li>1.2.Basic math in JavaScript — Numbers and operators</li>
-<li>1.3.Handling text — Strings in JavaScript</li>
+<li>1.2.Basic math in JavaScript,Numbers and operators</li>
+<li>1.3.Handling text and Strings in JavaScript</li>
 <li>1.4.Useful string methods</li>
 <li>1.5.Arrays</li>
 <li>1.6.JavaScript building blocks</li>
@@ -44,8 +41,7 @@
 </ol>
 
 <h1>INTRODUCTION TO RUBY</h1>
---------------------------
---------------------------
+
 <ol>
 <li>1.1.Ruby Language Overview</li>
 <li>1.2.Built-in Types</li>
@@ -58,12 +54,17 @@
 <li>1.9.Assessment</li>
 </ol>
 
-<h2>INTRODUCTION TO RUBY ARGOLTHM</h2>
---------------------------------
---------------------------------
-
 
 <h2>INTRODUCTION TO GIT/GITHUB</h2>
---------------------------
---------------------------
+
+<ol>
+<li>1.1.Purpose of Using Git</li>
+<li>1.2.What Is Git? and What Is GitHub?</li>
+<li>1.3.Installation of Git</li>
+<li>1.4.Configuration of Git</li>
+<li>1.5.Github</li>
+<li>1.6.How To Get Started With GitHub</li>
+</ol>
+
+
 
