@@ -1,4 +1,4 @@
-<h1>INTRODUCTION TO HTML</h1>
+<h1>Introduction To Html</h1>
 
 <ol>
 <li>1.1.Introduction to HTML overview</li>
@@ -13,7 +13,7 @@
 <li>1.9.Assessment: Structuring a page of content</li>
 </ol>
 
-<h1>INTRODUTION TO CSS</h1>
+<h1>Introduction To Css</h1>
 
 <ol>
 <li>1.1.What is CSS?</li>
@@ -26,21 +26,23 @@
 <li>1.8.Assessment</li>
 </ol>
 
-<h1>INTRODUCTION TO JAVASCRIPT<h1>
+<h1>Introduction To Js<h1>
 
 <ol>
-<li>1.1.What is JavaScript?</li>
-<li>1.2.Basic math in JavaScript,Numbers and operators</li>
-<li>1.3.Handling text and Strings in JavaScript</li>
-<li>1.4.Useful string methods</li>
-<li>1.5.Arrays</li>
-<li>1.6.JavaScript building blocks</li>
-<li>1.7.Introducing JavaScript objects</li>
-<li>1.8.Asynchronous JavaScript</li>
+<li>1.1.What is Javascript?</li>
+<li>1.2.Basic math in Javascript,Numbers and operators</li>
+<li>1.3.Handling text and string in Javascript</li>
+<li>1.4.Useful string method</li>
+<li>1.5.Array</li>
+<li>1.6.Javascript building block</li>
+<li>1.7.Introducing Javascript Object</li>
+<li>1.8.Asynchrounous Javascript</li>
 <li>1.9.Assessment</li>
 </ol>
 
-<h1>INTRODUCTION TO RUBY</h1>
+
+
+<h1>Introduction To Ruby</h1>
 
 <ol>
 <li>1.1.Ruby Language Overview</li>
@@ -54,8 +56,17 @@
 <li>1.9.Assessment</li>
 </ol>
 
+<h2>Introduction to Ruby Algorthm<h2>
+<ol>
+<li>1.1.Ruby Algorthm meaning and Understanding Flowchart</li>
+<li>1.2.Meaning of pseudocode and steps of using it in algorthm</li>
+<li>1.3.understanding and implementing bubble sort in ruby algorthm</li>
+<li>1.4.Error Handling in Ruby algorthm<li>
+<li>Assessment</li>
+</ol>
 
-<h2>INTRODUCTION TO GIT/GITHUB</h2>
+
+<h2>Introduction To Git/Github</h2>
 
 <ol>
 <li>1.1.Purpose of Using Git</li>
@@ -64,6 +75,7 @@
 <li>1.4.Configuration of Git</li>
 <li>1.5.Github</li>
 <li>1.6.How To Get Started With GitHub</li>
+<li>1.7.Assessment</li>
 </ol>
 
 
