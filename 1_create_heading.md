@@ -26,7 +26,7 @@
 <li>1.8.Assessment</li>
 </ol>
 
-<h1>Introduction To Js<h1>
+<h1>Introduction To Js</h1>
 
 <ol>
 <li>1.1.What is Javascript?</li>
@@ -56,17 +56,17 @@
 <li>1.9.Assessment</li>
 </ol>
 
-<h2>Introduction to Ruby Algorthm<h2>
+<h1>Introduction to Ruby Algorthm</h1>
 <ol>
 <li>1.1.Ruby Algorthm meaning and Understanding Flowchart</li>
 <li>1.2.Meaning of pseudocode and steps of using it in algorthm</li>
 <li>1.3.understanding and implementing bubble sort in ruby algorthm</li>
 <li>1.4.Error Handling in Ruby algorthm<li>
-<li>Assessment</li>
+<li>1.5.Assessment</li>
 </ol>
 
 
-<h2>Introduction To Git/Github</h2>
+<h1>Introduction To Git/Github</h1>
 
 <ol>
 <li>1.1.Purpose of Using Git</li>
