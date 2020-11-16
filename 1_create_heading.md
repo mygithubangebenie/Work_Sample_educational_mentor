@@ -1,3 +1,5 @@
+<h1>Table Of Content<h2>
+
 <h1>Introduction To Html</h1>
 
 <ol>
