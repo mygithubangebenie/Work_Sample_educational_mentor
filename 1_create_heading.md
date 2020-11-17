@@ -18,8 +18,8 @@
 <ol>
 <li>1.1.What is CSS?</li>
 <li>1.2.Getting started with CSS</li>
-<li>1.3How CSS is structured</li>
-<li>1.4How CSS works</li>
+<li>1.3.How CSS is structured</li>
+<li>1.4.How CSS works</li>
 <li>1.5.CSS building blocks</li>
 <li>1.6.Styling text</li>
 <li>1.7.CSS layout</li>
