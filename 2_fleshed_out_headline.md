@@ -49,8 +49,7 @@ footer:A strip across the bottom of the page that generally contains fine print,
 # Debugging Html
 Writing HTML is fine, but what if something goes wrong, and you can't work out where the error in the code is? This article will introduce you to some tools that can help you find and fix errors in HTML.
 The Nu HTML5 is a popular HTML 5 Validator Online tool. Nu HTML5 helps to scan the complete application and find out all the syntax errors in the application.
-# Assessment
-This assessment tests your ability to use HTML to structure a simple page of content, containing a header, a footer, a navigation menu, main content, and a sidebar.
+ 
 ------------------------------------------------------------------------------------------------
 # CSS
 # What is Css?
@@ -147,10 +146,6 @@ a collection of popular layouts and patterns made with CSS
 So that I collect most popular layouts and patterns that can be built with pure CSS.
 They are powered by modern CSS features such as flexbox and CSS grid.
 
-# Assessment
-What does CSS stand for?
-
-
 ---------------------------------------------------------------------------------
 # JS
 
@@ -223,8 +218,6 @@ Asynchronous JavaScript can be tricky even for experienced developers, but it’
 # What is synchronous and asynchronous in JavaScript?
 
 synchronous code is executed in sequence – each statement waits for the previous statement to finish before executing. Asynchronous code doesn't have to wait – your program can continue to run. You do this to keep your site or app responsive, reducing waiting time for the user.
-
-# Assessment
 
 ------------------------------------------------------------------------------------------------
 # Ruby
