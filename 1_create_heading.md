@@ -6,4 +6,5 @@
 <li>1.4.Creating Staging and other Environment in Rails</li>
 <li>1.5.Configuring Rails Application</li>
 <li>1.6.Getting started with Model,View,Controller</li>
+<li>1.7.Rails command line</li>
 </ol>

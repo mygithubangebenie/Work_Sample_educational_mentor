@@ -1,6 +1,8 @@
 
 
-# Ruby On Rails# What is Ruby On rails?
+# Ruby On Rails
+What is Ruby On rails?
+
 Rails is a development tool which gives web developers a framework, providing structure for all the code they write. The Rails framework helps developers to build websites and applications, because it abstracts and simplifies common repetitive tasks.
 # Installation of Railshere there is the steps given below for installing Ruby on Rails.
 
@@ -20,25 +22,42 @@ We are installing Ruby On Rails on Linux using rbenv. It is a lightweight Ruby V
 
 # Follow the steps given below to install Ruby on Rails using rbenv tool.
 
-- Step 1: Install Prerequisite DependenciesFirst of all, we have to install git - core and some ruby dependences that help to install Ruby on Rails. Use the following command for installing Rails dependencies using yum.
+- Step 1: Install Prerequisite Dependencies
+First of all, we have to install git - core and some ruby dependences that help to install Ruby on Rails. Use the following command for installing Rails dependencies using yum.
+
 tp> sudo yum install -y git-core zlib zlib-devel gcc-c++ patch readline readline-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison curl sqlite-devel
 
-- Step 2: Install rbenvNow we will install rbenv and set the appropriate environment variables. 
-Use the following set of commands to get rbenv for git repository.
-tp> git clone git://github.com/sstephenson/rbenv.git .rbenvtp> 
-echo 'export PATH = "$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profiletp> 
-echo 'eval "$(rbenv init -)"' >> ~/.bash_profiletp> exec 
-$SHELL tp> git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-buildtp> 
-echo 'export PATH = "$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' << ~/.bash_profiletp> exec
-$SHELL
+- Step 2: Install rbenv
+Now we will install rbenv and set the appropriate environment variables. Use the following set of commands to get rbenv for git repository.
 
-- Step 3: Install RubyBefore installing Ruby, determine which version of Ruby you want to install. We will install Ruby 2.2.3. Use the following command for installing Ruby.
-tp> rbenv install -v 2.2.3Use the following command for setting up the current Ruby version as default.
-tp> rbenv global 2.2.3Use the following command to verify the Ruby version.
-tp> ruby -vOutput
+tp> git clone git://github.com/sstephenson/rbenv.git .rbenv
+tp> echo 'export PATH = "$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+tp> echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+tp> exec $SHELL
 
-ruby 2.2.3p173 (2015-08-18 revivion 51636) [X86_64-linux]Ruby provides a keyword gem for installing the supported dependencies; we call them gems. If you don't want to install the documentation for Ruby-gems, then use the following command.
-tp> echo "gem: --no-document" > ~/.gemrcThereafter, it is better to install the Bundler gem, because it helps to manage your application dependencies. Use the following command to install bundler gem.
+tp> git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+tp> echo 'export PATH = "$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' << ~/.bash_profile
+tp> exec $SHELL
+
+Step 3: Install Ruby
+Before installing Ruby, determine which version of Ruby you want to install. We will install Ruby 2.2.3. Use the following command for installing Ruby.
+
+tp> rbenv install -v 2.2.3
+Use the following command for setting up the current Ruby version as default.
+
+tp> rbenv global 2.2.3
+Use the following command to verify the Ruby version.
+
+tp> ruby -v
+Output
+
+ruby 2.2.3p173 (2015-08-18 revivion 51636) [X86_64-linux]
+Ruby provides a keyword gem for installing the supported dependencies; we call them gems. If you don't want to install the documentation for Ruby-gems, then use the following command.
+
+tp> echo "gem: --no-document" > ~/.gemrc
+
+Thereafter, it is better to install the Bundler gem, because it helps to manage your application dependencies. Use the following command to install bundler gem.
+
 tp> gem install bundler
 
 - Step 4: Install RailsUse the following command for installing Rails version 4.2.4.
@@ -49,18 +68,29 @@ tp> rails -v
 - Output
 tp> Rails 4.2.4
 
-- Step 5: Install JavaScript RuntimeLet us install Node.js from the Yum repository. We will take Node.js from EPEL yum repository. Use the following command to add the EPEL package to the yum repository.
+- Step 5: Install JavaScript Runtime
+Let us install Node.js from the Yum repository. We will take Node.js from EPEL yum repository. Use the following command to add the EPEL package to the yum repository.
 
-tp> sudo yum -y install epel-releaseUse the following command for installing the Node.js package.
+tp> sudo yum -y install epel-release
+Use the following command for installing the Node.js package.
+
 tp> sudo yum install nodejs
 
-- Step 6: Install DatabaseBy default, Rails uses sqlite3, but you may want to install MySQL, PostgreSQL, or other RDBMS. This is optional; if you have the database installed, then you may skip this step and it is not mandatory that you have a database installed to start the rails server.
+- Step 6: Install Database
+By default, Rails uses sqlite3, but you may want to install MySQL, PostgreSQL, or other RDBMS. This is optional; if you have the database installed, then you may skip this step and it is not mandatory that you have a database installed to start the rails server. For this tutorial, we are using PostgreSQL database. Therefore use the following commands to install PostgreSQL.
 
-- For this tutorial, we are using PostgreSQL database. Therefore use the following commands to install PostgreSQL.
+tp> sudo yum install postgresql-server postgresql-contrib
+Accept the prompt, by responding with a y. Use the following command to create a PostgreSQl database cluster.
 
-tp> sudo yum install postgresql-server postgresql-contribAccept the prompt, by responding with a y. Use the following command to create a PostgreSQl database cluster.
-tp> sudo postgresql-setup initdbUse the following command to start and enable PostgreSQL.
-tp> sudo systemctl start postgresqltp> sudo systemctl enable postgresql
+tp> sudo postgresql-setup initdb
+Use the following command to start and enable PostgreSQL.
+
+tp> sudo systemctl start postgresql
+tp> sudo systemctl enable postgresql
+Keeping Rails Up-to-Date
+Assuming you have installed Rails using RubyGems, keeping it up-to-date is relatively easy. We can use the same command in both Windows and Linux platform. Use the following command −
+
+tp> gem update rails
 
 - NB:if you are using Linux you should follow all steps above without jump to any one stepsthen you will be successful in environment of ruby on rails.
 
@@ -72,36 +102,37 @@ Ruby on Rails come with three environments by default – development, testing a
 - a new config/environments/YOUR_ENVIRONMENT.rb file
 - a new database configuration entry in config/database.yml if your application uses database
 - a new secret key base entry in config/secrets.yml for apps on Rails 4.1 and higher
-As I mentioned first we would need a new file in config/environments/. A short example for staging environment could be config/environment stagingrb:
------------------------------------------------------------------------------------------------
+As I mentioned first we would need a new file in config/environments/. A short example for staging environment could be config/environment staging.rb:
+ 
+# Just use the production settings
 require File.expand_path('../production.rb', __FILE__)
 
-Rails.application.configure do 
-# Here override any defaults 
-config.serve_static_files = true
+Rails.application.configure do
+  # Here override any defaults
+  config.serve_static_files = true
 end
------------------------------------------------------------------------------------------------
 You might actually want to copy the production.rb environment file, but I am making it short.
+
 To make a new entry in config/database.yml just edit the file and include a new database:
-------------------------------------------------------------
-Production settings for local development and profiling
-staging: database: db_profile 
-...
-------------------------------------------------------------
+
+# Production settings for local development and profiling
+staging:
+  database: db_profile
+  ...
 To make a new entry in config/secrets.yml you can use the following Rake command to get a new key base:
---------------------------------------------------------------------------------------------------------- rake secretc975f1417b60097ecfc17e308f0d8fc502f1e2534b14ef41527d703923db9e875ad4eeb779a74c732bb6c5747c3b56d84fe7f38554089522a2f557c587766fcc
----------------------------------------------------------------------------------------------------------
+
+$ rake secret
+c975f1417b60097ecfc17e308f0d8fc502f1e2534b14ef41527d703923db9e875ad4eeb779a74c732bb6c5747c3b56d84fe7f38554089522a2f557c587766fcc
 ...
 test:
   secret_key_base: 40bf0f5019e785b6b44a29f1680febbcb06db8dd64f835986c6686bebddf304b67f8a9a6dffcc862f2586edc60921d0b736e3e0b1833eea2431767d2a0d1f9cc
 
-Add this new entry with the generated key base
+# Add this new entry with the generated key base
 staging:
   secret_key_base: c975f1417b60097ecfc17e308f0d8fc502f1e2534b14ef41527d703923db9e875ad4eeb779a74c732bb6c5747c3b56d84fe7f38554089522a2f557c587766fcc
 ...
----------------------------------------------------------------------------------------------------------Also don’t forget on various initializers that might be configured for specific environments. For instance this might be a change you want to do for a rack-mini-profiler initializer inside 
-config/initializers/rack_profiler.rb file:
----------------------------------------------------------------------------------------------------------
+Also don’t forget on various initializers that might be configured for specific environments. For instance this might be a change you want to do for a rack-mini-profiler initializer inside config/initializers/rack_profiler.rb file:
+
 if Rails.env.development? || Rails.env.staging?
   require 'rack-mini-profiler'
 
@@ -112,12 +143,11 @@ if Rails.env.development? || Rails.env.staging?
   Rack::MiniProfiler.config.pre_authorize_cb = lambda { |env| true }
   Rack::MiniProfiler.config.authorization_mode = :allowall
 end
-
 As you can see some gems for development don’t assume you want to use them elsewhere.
-
----------------------------------------------------------------------------------------------------------
 Now you can go ahead and prepend your commands with a new RAILS_ENV values:
-- $ RAILS_ENV=staging rake db:createThe same way you can then add other environments. The nice thing is that you can use same databases if you want, just different settings (asset management, logging, 3rd party services) or the same config with a different database.
+
+$ RAILS_ENV=staging rake db:create
+
 # Configuring Rails Application
 - 1. Locations for Initialization 
 CodeRails offers four standard spots to place initialization code:
@@ -161,7 +191,8 @@ The controller connects the model with the view. In Rails, controllers are imple
 
 - The process for creating a controller is very easy, and it's similar to the process we've already used for creating a model. We will create just one controller here 
 
-# library\> rails generate controller Book
+library\> rails generate controller Book
 
-- Notice that you are capitalizing Book and using the singular form. This is a Rails paradigm that you should follow each time you create a controller.This command accomplishes several tasks, of which the following are relevant here −It creates a file called app/controllers/book_controller.rbIf you look at book_controller.rb, you will find it as follows −
-class BookController < ApplicationControllerend
+- Notice that you are capitalizing Book and using the singular form. This is a Rails paradigm that you should follow each time you create a controller.This command accomplishes several tasks, of which the following are relevant here −It creates a file called app/controllers/book_controller.rbIf you look at book_controller.rb, you will find it as follows 
+- class BookController < ApplicationController
+  end
