@@ -1,392 +1,154 @@
-# Objectives of This Courses
-The aim of this courses is to Learn and Understand how HTML,Css,Js,Ruby,Ruby algorthm
-and Git/Github then it will help you to enlarge your knowledge and skills in Software development after this course student will be able to use all of this and has experience of using Github.
-
-# HTML
-# Html Overview
-HTML stands for Hypertext Markup Language, and it is the most widely used language to write Web Pages. As its name suggests, HTML is a Markup Language which means you use HTML to simply "mark-up" a text document with tags that tell a Web browser how to structure it to display.
-In this article we cover the absolute basics of HTML. To get you started, this article defines elements, attributes, and all the other important terms you may have heard. It also explains where these fit into HTML.
-# what is it in head,Meta data in HTML
-The HTML head is the contents of the <head> element — unlike the contents of the <body> element (which are displayed on the page when loaded in a browser), the head's content is not displayed on the page. Instead, the head's job is to contain metadata about the document. In the above example, the head is quite small:
-<head>
-  <meta charset="utf-8">
-  <title>My test page</title>
-</head>
-
-# Html text fundamentals
-What are the fundamentals of HTML?
-HTML Fundamentals
-Structure of HTML Documents and HTML Document Tags.
- The first thing in your HTML document is a <! ...
-HTML Syntax (elements) Each HTML tag consists of an opening and a closing , that is, <name> ..
-Document Structure Tags.
-List Tags.etc ..
-# Creating hyperlinks
-Hyperlinks are really important — they are what makes the Web a web
-Hyperlinks are one of the most exciting innovations the Web has to offer. 
-here there is example of hyperlink
-<p>I'm creating a link to
-<a href="https:www.diveintocode.jp">the homepage</a>.
-</p>
-
-# Advanced text formatting
-The purpose of these formatting is to mark up a set of items and their associated descriptions
-# Document and website structure
-Starting a website is much easier and cheaper than it used to be thanks to the wide variety of user-friendly.
-
-Basic sections of a document
-Webpages can and will look pretty different from one another, but they all tend to share similar standard components, unless the page is displaying a fullscreen video or game, is part of some kind of art project, or is just badly structured:
-
-Header: Usually a big strip across the top with a big heading, logo, and perhaps a tagline. This usually stays the same from one webpage to another.
-
-navigation bar:this content usually remains consistent from one webpage to another — having inconsistent navigation on your website will just lead to confused
-
-main content:A big area in the center that contains most of the unique content of a given webpage
-
-sidebar :Some peripheral info, links, quotes, ads, etc. Usually, this is contextual to what is contained in the main content 
-
-footer:A strip across the bottom of the page that generally contains fine print, copyright notices, or contact info. It's a place to put common information
-# Debugging Html
-Writing HTML is fine, but what if something goes wrong, and you can't work out where the error in the code is? This article will introduce you to some tools that can help you find and fix errors in HTML.
-The Nu HTML5 is a popular HTML 5 Validator Online tool. Nu HTML5 helps to scan the complete application and find out all the syntax errors in the application.
-# Assessment
-This assessment tests your ability to use HTML to structure a simple page of content, containing a header, a footer, a navigation menu, main content, and a sidebar.
-------------------------------------------------------------------------------------------------
-# CSS
-# What is Css?
-CSS stands for Cascading Style Sheets
-CSS describes how HTML elements are to be displayed on screen, paper, or in other media.
-# Getting started with Css
-Adding Css to our document
-The very first thing we need to do is to tell the HTML document that we have some CSS rules we want it to use.There are three different ways to apply CSS to an HTML document 
-
-- Create a file in the same folder as your HTML document and save it as styles.css. The .css extension shows that this is a CSS file.
-- To link styles.css to index.html add the following line somewhere inside the <head> of the HTML document:
-<link rel="stylesheet" href="styles.css">
-
-# How css is structured
-First, let's examine three methods of applying CSS to a document: with an external stylesheet, with an internal stylesheet, and with inline styles.
-
-- External style sheet
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>My CSS experiment</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <p>This is my first CSS example</p>
-  </body>
-</html>
-
-- Internal style sheet
-An internal stylesheet resides within an HTML document. To create an internal stylesheet, you place CSS inside a <style> element contained inside the HTML <head>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>My CSS experiment</title>
-    <style>
-      h1 {
-        color: blue;
-        background-color: yellow;
-        border: 1px solid black;
-      }
-
-      p {
-        color: red;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <p>This is my first CSS example</p>
-  </body>
-</html>
-
-- Inline style sheet
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>My CSS experiment</title>
-  </head>
-  <body>
-    <h1 style="color: blue;background-color: yellow;border: 1px solid black;">Hello World!</h1>
-    <p style="color:red;">This is my first CSS example</p>
-  </body>
-</html>
-
-# How Css works?
-How does CSS actually work?
-When a browser displays a document, it must combine the document's content with its style information. 
-# Css building block
-here there is css selector!
-CSS selectors
-There are a wide variety of CSS selectors available, allowing for fine-grained precision when selecting elements to style. In this article and its sub-articles, we'll run through the different types in great detail, seeing how they work. The sub-articles are as follows:
-- Type, class, and ID selectors
-- Attribute selectors
-- Pseudo-classes and pseudo-elements
-- Combinators
-What is a selector?
-You have met selectors already. A CSS selector is the first part of a CSS Rule.
-
-h1 { 
-  color: blue; 
-} 
-
-.special { 
-  color: blue; 
-} 
-# Styling text
-The CSS text-align property defines the horizontal text alignment for an HTML element:
-<h1 style="text-align:center;">Centered Heading</h1>
-<p style="text-align:center;">Centered paragraph.</p>
-
-# Css Layout
-a collection of popular layouts and patterns made with CSS
-So that I collect most popular layouts and patterns that can be built with pure CSS.
-They are powered by modern CSS features such as flexbox and CSS grid.
-
-# Assessment
-What does CSS stand for?
 
 
----------------------------------------------------------------------------------
-# JS
+# Ruby On Rails# What is Ruby On rails?
+Rails is a development tool which gives web developers a framework, providing structure for all the code they write. The Rails framework helps developers to build websites and applications, because it abstracts and simplifies common repetitive tasks.
+# Installation of Railshere there is the steps given below for installing Ruby on Rails.
 
-# what is Javascript?
-JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user.
+- Step 1: Check Ruby VersionFirst, check if you already have Ruby installed. Open the command prompt and type ruby -v. If Ruby responds, and if it shows a version number at or above 2.2.2, then type gem --version. If you don't get an error, skip Install Ruby step. Otherwise, we'll install a fresh Ruby.
 
-# Basic math in Javascript,Numbers and operators
-JavaScript Math Object
-Math.round() Math.round(x) returns the value of x rounded to its nearest integer: 
-Math.pow() Math.pow(x, y) returns the value of x to the power of y:
-Math.sqrt() Math.sqrt(x) returns the square root of x: 
-There are four different types of calculation operators: arithmetic, comparison, text concatenation, and reference.
-What is () called in math?
-- This symbol is called an asterisk. In mathematics, we sometimes use it to mean multiplication, particularly with computers. For example, 5*3 = 5 times 3 = 15.
+- Step 2: Install RubyIf Ruby is not installed, then download an installation package from rubyinstaller.org. Follow the download link, and run the resulting installer. This is an exe file rubyinstaller-2.2.2.x.exe and will be installed in a single click. It's a very small package, and you'll get RubyGems as well along with this package. 
 
-# Handling text and string in Javascript
-Strings are dealt with similarly to numbers at first glance, but when you dig deeper you'll start to see some notable differences
-- Creating a string
-To start with, enter the following lines:
-let string = 'The revolution will not be televised.';
-string;
-- If you don't do this, or miss one of the quotes, you'll get an error. Try entering the following lines:
-let badString = This is a test;
-let badString = 'This is a test;
-let badString = This is a test';
-# Useful string method
+- Step 3: Install RailsInstall Rails − With Rubygems loaded, you can install all of Rails and its dependencies using the following command through the command line −
+C:\> gem install rails
+- Note − The above command may take some time to install all dependencies. Make sure you are connected to the internet while installing gems dependencies make sure if you have Good network.
 
-Strings as objects
-Most things are objects in JavaScript. When you create a string, for example by using:
-let string = 'This is my string';
-Finding the length of a string
-This is easy — you simply use the length property. Try entering the following lines:
-let browserType = 'mozilla';
-browserType.length;
+- Step 4: Check Rails VersionUse the following command to check the rails version.
+C:\> rails -v- OutputRails 4.2.4
 
-# Array
-JavaScript arrays are used to store multiple values in a single variable.
-Example
-var cars = ["Saab", "Volvo", "BMW"];
+# Rails Installation on Linux
+We are installing Ruby On Rails on Linux using rbenv. It is a lightweight Ruby Version Management Tool. The rbenv provides an easy installation procedure to manage various versions of Ruby, and a solid environment for developing Ruby on Rails applications.
 
-# What is an Array?
-An array is a special variable, which can hold more than one value at a time.
-If you have a list of items (a list of car names, for example), storing the cars in single variables could look like this:
-var car1 = "Saab";
-var car2 = "Volvo";
-var car3 = "BMW";
+# Follow the steps given below to install Ruby on Rails using rbenv tool.
 
-# JavaScript Array Methods
-Converting Arrays to Strings
-The JavaScript method toString() converts an array to a string of (comma separated) array values.
+- Step 1: Install Prerequisite DependenciesFirst of all, we have to install git - core and some ruby dependences that help to install Ruby on Rails. Use the following command for installing Rails dependencies using yum.
+tp> sudo yum install -y git-core zlib zlib-devel gcc-c++ patch readline readline-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison curl sqlite-devel
 
-Example
-var fruits = ["Banana", "Orange", "Apple", "Mango"];
-document.getElementById("demo").innerHTML = fruits.toString();
-Result:
-Banana,Orange,Apple,Mango
+- Step 2: Install rbenvNow we will install rbenv and set the appropriate environment variables. Use the following set of commands to get rbenv for git repository.
+tp> git clone git://github.com/sstephenson/rbenv.git .rbenvtp> echo 'export PATH = "$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profiletp> echo 'eval "$(rbenv init -)"' >> ~/.bash_profiletp> exec $SHELL
+tp> git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-buildtp> echo 'export PATH = "$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' << ~/.bash_profiletp> exec $SHELL
 
-# Introducing Javascript Object
-What is JavaScript Object Notation (JSON) and how can you put it to work? This concise guide helps busy IT professionals get up and running quickly with this popular data interchange format, and provides a deep understanding of how JSON works. 
+- Step 3: Install RubyBefore installing Ruby, determine which version of Ruby you want to install. We will install Ruby 2.2.3. Use the following command for installing Ruby.
+tp> rbenv install -v 2.2.3Use the following command for setting up the current Ruby version as default.
+tp> rbenv global 2.2.3Use the following command to verify the Ruby version.
+tp> ruby -vOutput
 
-# How do you declare an object in JavaScript?
+ruby 2.2.3p173 (2015-08-18 revivion 51636) [X86_64-linux]Ruby provides a keyword gem for installing the supported dependencies; we call them gems. If you don't want to install the documentation for Ruby-gems, then use the following command.
+tp> echo "gem: --no-document" > ~/.gemrcThereafter, it is better to install the Bundler gem, because it helps to manage your application dependencies. Use the following command to install bundler gem.
+tp> gem install bundler
 
-Creating a JavaScript Object
-There are different ways to create new objects: Define and create a single object, using an object literal. Define and create a single object, with the keyword new . Define an object constructor, and then create objects of the constructed type.
+- Step 4: Install RailsUse the following command for installing Rails version 4.2.4.
+tp> install rails -v 4.2.4Use the following command to make Rails executable available.
+tp> rbenv rehashUse the following command for checking the rails version.
+tp> rails -vOutput
+tp> Rails 4.2.4
 
-# Asynchrounous Javascript
+- Step 5: Install JavaScript RuntimeLet us install Node.js from the Yum repository. We will take Node.js from EPEL yum repository. Use the following command to add the EPEL package to the yum repository.
+tp> sudo yum -y install epel-releaseUse the following command for installing the Node.js package.
+tp> sudo yum install nodejs
 
-Why study Asynchronous JavaScript?
-Asynchronous JavaScript can be tricky even for experienced developers, but it’s part of what makes JavaScript such a powerful and efficient programming language.
-# What is synchronous and asynchronous in JavaScript?
+- Step 6: Install DatabaseBy default, Rails uses sqlite3, but you may want to install MySQL, PostgreSQL, or other RDBMS. This is optional; if you have the database installed, then you may skip this step and it is not mandatory that you have a database installed to start the rails server. For this tutorial, we are using PostgreSQL database. Therefore use the following commands to install PostgreSQL.
+tp> sudo yum install postgresql-server postgresql-contribAccept the prompt, by responding with a y. Use the following command to create a PostgreSQl database cluster.
+tp> sudo postgresql-setup initdbUse the following command to start and enable PostgreSQL.
+tp> sudo systemctl start postgresqltp> sudo systemctl enable postgresql
+# NB:
+if you are using Linux you should follow all steps above without jump to any one stepsthen you will be successful in environment of ruby on rails.
+# Creating Staging and other Environment in Rails
 
-synchronous code is executed in sequence – each statement waits for the previous statement to finish before executing. Asynchronous code doesn't have to wait – your program can continue to run. You do this to keep your site or app responsive, reducing waiting time for the user.
+Ruby on Rails come with three environments by default – development, testing and production. But sooner or later one has a need for staging environment.
+# To create a new environment you need to create:
 
-# Assessment
+- a new config/environments/YOUR_ENVIRONMENT.rb file
+- a new database configuration entry in config/database.yml if your application uses database
+- a new secret key base entry in config/secrets.yml for apps on Rails 4.1 and higher
+As I mentioned first we would need a new file in config/environments/. A short example for staging environment could be config/environment stagingrb:
+-----------------------------------------------------------------------------------------------
+require File.expand_path('../production.rb', __FILE__)
+Rails.application.configure do 
+# Here override any defaults 
+config.serve_static_files = true
+end
+-----------------------------------------------------------------------------------------------
+You might actually want to copy the production.rb environment file, but I am making it short.
+To make a new entry in config/database.yml just edit the file and include a new database:
+------------------------------------------------------------
+# Production settings for local development and profiling
+staging: database: db_profile 
+...
+------------------------------------------------------------
+To make a new entry in config/secrets.yml you can use the following Rake command to get a new key base:
+--------------------------------------------------------------------------------------------------------- rake secretc975f1417b60097ecfc17e308f0d8fc502f1e2534b14ef41527d703923db9e875ad4eeb779a74c732bb6c5747c3b56d84fe7f38554089522a2f557c587766fcc
+---------------------------------------------------------------------------------------------------------
+...
+test:
+  secret_key_base: 40bf0f5019e785b6b44a29f1680febbcb06db8dd64f835986c6686bebddf304b67f8a9a6dffcc862f2586edc60921d0b736e3e0b1833eea2431767d2a0d1f9cc
 
-------------------------------------------------------------------------------------------------
-# Ruby
-# Ruby Language Overview
+# Add this new entry with the generated key base
+staging:
+  secret_key_base: c975f1417b60097ecfc17e308f0d8fc502f1e2534b14ef41527d703923db9e875ad4eeb779a74c732bb6c5747c3b56d84fe7f38554089522a2f557c587766fcc
+...
+---------------------------------------------------------------------------------------------------------Also don’t forget on various initializers that might be configured for specific environments. For instance this might be a change you want to do for a rack-mini-profiler initializer inside 
+config/initializers/rack_profiler.rb file:
+---------------------------------------------------------------------------------------------------------
+if Rails.env.development? || Rails.env.staging?
+  require 'rack-mini-profiler'
 
-Ruby is a general-purpose, interpreted programming language. Ruby is a true object-oriented programming language. Ruby is a server-side scripting language similar to Python and PERL. Ruby can be used to write Common Gateway Interface (CGI) scripts.
-Dynamically typed
-Interpreted
-Can be modified at runtime
-Object oriented
-Blocks / lambdas / closures
-Perl-like regular expressions
-Closely tied to shell & OS
-# Features of Ruby
+  # Initialization is skipped so trigger it
+  Rack::MiniProfilerRails.initialize!(Rails.application)
 
-Ruby is an open-source and is freely available on the Web, but it is subject to a license.
-Ruby is a general-purpose, interpreted programming language.
-Ruby is a true object-oriented programming language.
-# Built-in Types
-Numbers
-42
-Booleans
-true
-false
-Strings
-"apple"
-'banana'
-Symbols
-:apple
-Arrays
-["apple", "banana"]
-# Functions And loops
-
- while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. 
-Example:
-
-filter_none
-brightness_4
-# Ruby program to illustrate 'while' loop 
-  
-# variable x 
-x = 4
-  
-# using while loop  
-# here condtional is x i.e. 4 
-while x >= 1 
-  
-# statements to be executed 
-  puts "GeeksforGeeks"
-  x = x - 1
-    
-# while loop ends here 
+  # Needed for staging env
+  Rack::MiniProfiler.config.pre_authorize_cb = lambda { |env| true }
+  Rack::MiniProfiler.config.authorization_mode = :allowall
 end
 
-# Classes and methods
-a method provides functionality to an Object. A class method provides functionality to a class itself, while an instance method provides functionality to one instance of a class.
+As you can see some gems for development don’t assume you want to use them elsewhere.
 
-class Calculator
-  def add(a,b)
-    a + b
-  end
-end
-# How Ruby Works with Databases
-Using GEM files (Ruby Libraries)•Supported: MySQL, Oracle, Neo4J, DB2, SQLite, ODBC.
-# Rails Architecture (Based on MVC)
-MVC is a pattern for the architecture of a software application. It separates an application into the following components:
-- Models for handling data and business logic
-- Controllers for handling the user interface and application
-- Views for handling graphical user interface objects and presentation
-# How to install Ruby?
-apt (Debian or Ubuntu)
-Debian GNU/Linux and Ubuntu use the apt package manager. You can use it like this:
+---------------------------------------------------------------------------------------------------------
+Now you can go ahead and prepend your commands with a new RAILS_ENV values:
+- $ RAILS_ENV=staging rake db:createThe same way you can then add other environments. The nice thing is that you can use same databases if you want, just different settings (asset management, logging, 3rd party services) or the same config with a different database.
+# Configuring Rails Application
+- 1. Locations for Initialization 
+CodeRails offers four standard spots to place initialization code:
 
-- sudo apt-get install ruby-full
-- sudo yum install ruby
-- sudo snap install ruby --classic
-- sudo snap switch ruby --channel=2.3/stable
-- sudo snap refresh
+- config/application.rb
+- Environment-specific configuration files
+- Initializers
+- After initializers
 
-# Creating a project in ruby
-Creating a New Rails Project. 
-- Scaffolding the Application.
-- Creating the Application Root View and Testing Functionality.
-- Adding Validations.
-- Adding Authentication.
-- Create database
-- Migrate database
-- Starting server
--------------------------------------------------------------------------
-# Ruby Algorthm
+- 2. Running Code Before Rails
 
-# Ruby Algorthm meaning and Understanding Flowchart
-HOW TO USE IT?
-- Process Flowchart is one of the most basic diagram you will meet. It is a great one to begin with since it is used to describe a high-level process of the whole system.
-- Ruby Algorthm : An algorithm is a step by step procedure to solve logical and mathematical problems. A recipe is a good example of an algorithm because it says what must be done, step by step.
-# Meaning of pseudocode and steps of using it in algorthm
+In the rare event that your application needs to run some code before Rails itself is loaded, put it above the call to require 'rails/all' in config/application.rb
 
-It is a simpler version of a programming code in plain English which uses short phrases to write code for a program before it is implemented in a specific programming language.
-# understanding and implementing bubble sort in ruby 
+- 3 Configuring Rails Components
 
-Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. 
+In general, the work of configuring Rails means configuring the components of Rails, as well as configuring Rails itself. The configuration file config/application.rb and environment-specific configuration files (such as config/environments/production.rb) allow you to specify the various settings that you want to pass down to all of the components.
 
-def bubble_sort(array)
-  array_length = array.size
-  return array if array_length <= 1
+For example, you could add this setting to config/application.rb file:
+config.time_zone = 'Central Time (US & Canada)'
+This is a setting for Rails itself. If you want to pass settings to individual Rails components, you can do so via the same config object in config/application.rb:
 
-  loop do
-    # we need to create a variable that will be checked so that we don't run into an infinite loop scenario.
-    swapped = false
+config.active_record.schema_format = :ruby
+Rails will use that particular setting to configure Active Record
+# Getting started with Model,View,Controller
+As already mentioned, Rails relies on the MVC pattern. Model-View-Controller has some benefits over traditional concepts:
+it keeps your business logic separated from your (HTML-based) viewskeeps your code clean and neat in one place.
+# Model
+The model represents the information and the data from the database. It is as independent from the database as possible (Rails comes with its own O/R-Mapper, allowing you to change the database that feeds the application but not the application itself). The model also does the validation of the data before it gets into the database. Most of the time you will find a table in the database and an according model in your application.
+- Rails contains a model generator, which you can use via your command line, as long as you're in a Rails app already.- rails generate model User username:string password:string
 
-    # subtract one because Ruby arrays are zero-index based
-    (array_length-1).times do |i|
-      if array[i] > array[i+1]
-        array[i], array[i+1] = array[i+1], array[i]
-        swapped = true
-      end
-    end
+# View
+The view is the presentation layer for your application. The view layer is responsible for rendering your models into one or more formats, such as XHTML, XML, or even Javascript. Rails supports arbitrary text rendering and thus all text formats, but also includes explicit support for Javascript and XML. Inside the view you will find (most of the time) HTML with embedded Ruby code. In Rails, views are implemented using ERb by default.
+By convention, Rails will automatically route Controller methods to specifically named Views.- For example, add the following route to your routes.rb file:# get "articles", to: "articles#index", as: :articles Next add the following Controller:
+class ArticlesController < ApplicationController def index end end 
+# Notice 
+we aren’t calling the View in the index method.Now if you fire up your Rails application and visit /articles in the browser you should see Rails complaining that the View file does not exist.Given this scenario, Rails will expect that there should be a View file under views/articles called index.html.erb
 
-    break if not swapped
-  end
+# Controller
 
-  array
-end
+The controller connects the model with the view. In Rails, controllers are implemented as ActionController classes. The controller knows how to process the data that comes from the model and how to pass it onto the view. The controller should not include any database related actions (such as modifying data before it gets saved inside the database). This should be handled in the proper model.
 
-unsorted_array = [11,5,7,6,15]
-p bubble_sort(unsorted_array)
-Running ruby ruby-sorting.rb in the terminal produces the following:
+- The process for creating a controller is very easy, and it's similar to the process we've already used for creating a model. We will create just one controller here 
 
-[5, 6, 7, 11, 15]
-# Error handling in algorthm
+# library\> rails generate controller Book
 
-Error handling refers to the response and recovery procedures from error conditions present in a software application. In other words, it is the process comprised of anticipation, detection and resolution of application errors, programming errors or communication errors.
-There are four main categories of errors:
-
-Logical errors
-Generated errors
-Compile-time errors
-Runtime errors
------------------------------------------------------------------------------------
-# Git/Github
-
-# Purpose of Using Git
-GitHub is a Git repository hosting service, but it adds many of its own features. While Git is a command line tool, GitHub provides a Web-based graphical interface. It also provides access control and several collaboration features, such as a wikis and basic task management tools for every project.
-
-# What Is Git? and What Is GitHub?
-Git is a version control system that lets you manage and keep track of your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories. 
-# Installation of Git
-Debian/Ubuntu
-- Git packages are available using apt.
-- It's a good idea to make sure you're running the latest version. To do so, Navigate to your command prompt shell and run the following command to make sure everything is up-to-date: sudo apt-get update.
-- To install Git, run the following command: sudo apt-get install git-all.
-- Once the command output has completed, you can verify the installation by typing: git version.
-# Configuration of Git
-As you read briefly in Getting Started, you can specify Git configuration settings with the git config command. One of the first things you did was set up your name and email address:
-- git init
-- git add .
-- git config --global user.name "Ange benie"
-- git config --global user.email angebenie@example.com
-etc...
-# Github
-What is GitHub? GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. This tutorial teaches you GitHub essentials like repositories, branches, commits, and Pull
-# How To Get Started With GitHub
-- Signup with github
-- then Sign in
-
+- Notice that you are capitalizing Book and using the singular form. This is a Rails paradigm that you should follow each time you create a controller.This command accomplishes several tasks, of which the following are relevant here −It creates a file called app/controllers/book_controller.rbIf you look at book_controller.rb, you will find it as follows −
+class BookController < ApplicationControllerend
